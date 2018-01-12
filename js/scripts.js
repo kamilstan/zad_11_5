@@ -11,13 +11,13 @@ Button.prototype = {
 			alert(self.text);
 		});
 		$('body').append(this.$element);
-	};
+  }
 };
 
 
 var btn1 = new Button('Hello!');
 
-var btn1.create();
+btn1.create();
 
 
 
